@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header.hero {
+    background: https://drive.google.com/file/d/1a2UAzbI4D_npWefFZ581SV7Cm5F1CPee/view?usp=drivesdk;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header.hero .btn {
+    background: #f04e30;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+header.hero .btn:hover {
+    background: #d03d25;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #f04e30;
+    padding: 10px 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
